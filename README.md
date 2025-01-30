@@ -43,3 +43,7 @@
 - Document RAG : ドキュメントに対してベクトル検索して文章生成をするRAG手法
 - SQL RAG : LLMを用いてプロンプトからSQLクエリを生成して検索を行い文章生成をするRAG手法
 - Graph RAG
+
+## Ragasとは
+- RAG Assessmentの略
+- LLMによるRAGの評価フレームワーク
