@@ -4,7 +4,10 @@
 
 ## 構成
 - 03 : 簡単なRAG
+- 10 : langchain evaluationによるRAGの評価
 ## 文脈内学習(In-Context Learning)
+
+
 - プロンプトの末尾に検索拡張した知識を挿入すること
 ```
 # ゴール
@@ -35,3 +38,8 @@
   - Amazon Kendra (AWS)
   - Amazon Bedrock Knowledge Bases (AWS)
   - Vertex AI Search (GCP)
+
+## RAGの大分類
+- Document RAG : ドキュメントに対してベクトル検索して文章生成をするRAG手法
+- SQL RAG : LLMを用いてプロンプトからSQLクエリを生成して検索を行い文章生成をするRAG手法
+- Graph RAG
