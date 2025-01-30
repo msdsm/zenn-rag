@@ -24,3 +24,14 @@
 ```
 - 就業規則の文章をプロンプトの中に挿入することで知識を拡張して文脈(プロンプト)の中で学習している
 - RAGはこの文脈内学習をするための知識検索機能
+
+## RAG実装
+- ローカルで実装する際のベクトルDBの選択肢は以下
+  - ChromaDB
+  - Faiss
+  - DocArray
+- クラウド環境でRAGを実装する際の選択肢は以下
+  - Azure AI Search (Azure)
+  - Amazon Kendra (AWS)
+  - Amazon Bedrock Knowledge Bases (AWS)
+  - Vertex AI Search (GCP)
